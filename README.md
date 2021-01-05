@@ -37,15 +37,19 @@ A smart contract which assumes the basic role of a cryptocurrency regulator (eg 
 4. Normal transactions - Good-day behaviour
    * Normal transaction - Deposit 19 ether (not exceeding threshold)
    <img src="images/4_normal_transaction_deposit.png"  width="600" height="300">
+
    * Normal transaction - withdraw ether not exceeding the threshold
    <img src="images/5_normal_transaction_withdraw.png"  width="600" height="300">
+
    * Alert message - nothing suspicious
    <img src="images/6_good_day_behaviour.png"  width="600" height="300">
 5. Huge transaction amount
    * Deposit 21 ether (exceeding threshold value)
    <img src="images/7_huge_transaction_deposit.png"  width="600" height="300">
+
    * Withdraw exceeding threshold value
    <img src="images/8_huge_transaction_withdraw.png"  width="600" height="300">
+   
    * Alert the regulator of the suspicious transaction with the involved account address and amount transfered.
    <img src="images/9_huge_transaction_alert.png"  width="600" height="300">
 6. Crypto Laundering
