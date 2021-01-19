@@ -105,7 +105,7 @@ Although the website is **very** <sup>**_very_**</sup> <u>simple</u> BASIC and <
 2. Enter any amount of deposit/withdraw and press the `submit` button. Initially the account has 15 ether in balance.
 3. Metamask window will pop up and confirm the transaction. Here you go!
 
-<div style="text-align: center"><img src="images/demo.gif"  width="320" height="300"></div>
+<div><img src="images/demo.gif"  width="520" height="450"></div>
 
 <!-- CONTACT -->
 
