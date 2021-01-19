@@ -83,15 +83,11 @@ This is an example of how to list things you need to use the software and how to
 
 ### Launch web interface
 
-1. install packages
-   ```sh
-   $ npm install
-   ```
-2. start webpack development server
+1. start webpack development server
    ```sh
    $ npm start
    ```
-3. go to http://localhost:8080/ and ... TADAAA !! A **very** <sup>**_very_**</sup> <u>simple</u> BASIC <sub>minimalistic</sub> website
+2. go to http://localhost:8080/ and ... TADAAA !! A **very** <sup>**_very_**</sup> <u>simple</u> BASIC <sub>minimalistic</sub> website
 
    <img src="images/frontend.png"  width="600" height="300">
 
