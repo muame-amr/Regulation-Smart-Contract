@@ -1,0 +1,31 @@
+<html>
+  <head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="bundle.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12">
+          <h1>Bank Negara</h1>
+          <form id="deposit">
+            <div class="form-group">
+              <label for="depositAmount">Deposit: </label>
+              <input id="depositAmount" type="number" class="form-control"></input>
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+          </form>
+          <form id="withdraw">
+            <div class="form-group">
+              <label for="withdrawAmount">Withdraw: </label>
+              <input id="withdrawAmount" type="number" class="form-control"></input>
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+          </form>
+          <div class="col-sm-6">Balance: <span id="balance"></span></div>
+          <div class="col-sm-6">Accounts: <span id="accounts"></span></div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

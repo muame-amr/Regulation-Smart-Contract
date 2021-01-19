@@ -1,5 +1,5 @@
-var Regulation = artifacts.require("Regulation");
+const SimpleRegulator = artifacts.require("SimpleRegulator");
 
 module.exports = function (deployer) {
-  deployer.deploy(Regulation);
+  deployer.deploy(SimpleRegulator);
 };
